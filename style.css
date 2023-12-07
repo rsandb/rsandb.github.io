@@ -25,13 +25,14 @@ ol[role="list"] {
 
 html {
   font-family: "Inter", sans-serif;
+  height: 100%;
 }
 html:focus-within {
   scroll-behavior: smooth;
 }
 
 body {
-  min-height: 100vh;
+  height: 100%;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: #000;
